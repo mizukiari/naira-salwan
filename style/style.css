@@ -1,0 +1,47 @@
+.bg{
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+    background-color: #0D192B;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.card{
+    margin: auto;
+    width: 350px;
+    height: 600px;
+    background-color: #15273F;
+    border-radius: 15px;
+}
+.card .image{
+    margin-left: 25px;
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+.card .image img{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+.card .nftName{
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 5px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 23px;
+    font-weight: 400px;
+    color: white;
+}
+.card .nftDesc{
+    padding: 10px 25px 25px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 300px;
+    color: #9cb2d9;
+    line-height: 25px;
+
+}
